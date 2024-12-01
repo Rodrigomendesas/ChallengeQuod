@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnFacialBiometrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biometria Facial" />
+
+    <Button
+        android:id="@+id/btnDigitalBiometrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biometria Digital" />
+
+    <Button
+        android:id="@+id/btnDocumentAnalysis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Análise de Documento" />
+
+    <Button
+        android:id="@+id/btnSimSwap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIM SWAP" />
+
+    <Button
+        android:id="@+id/btnRegisterUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atualização Cadastral" />
+
+    <Button
+        android:id="@+id/btnAntiFraudScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score Antifraude" />
+</LinearLayout>
